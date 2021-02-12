@@ -29,8 +29,8 @@ export default function Login() {
           isLoggedInVar(true);
         }
       }
-    }    
-    );
+    }
+  );
 
   if (loading) return <Loading />;
   if (error) return <p>An error occurred</p>;
